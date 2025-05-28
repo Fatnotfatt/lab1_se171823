@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Lukas",
+    "last_name": "Steuart",
+    "email": "lsteuart0@squidoo.com",
+    "gender": "Male",
+    "ip_address": "201.205.167.124"
+  },
+  {
+    "id": 2,
+    "first_name": "Salli",
+    "last_name": "Brandacci",
+    "email": "sbrandacci1@earthlink.net",
+    "gender": "Non-binary",
+    "ip_address": "66.13.183.31"
+  },
+  {
+    "id": 3,
+    "first_name": "Florian",
+    "last_name": "Flanne",
+    "email": "fflanne2@umich.edu",
+    "gender": "Male",
+    "ip_address": "87.199.176.114"
+  },
+  {
+    "id": 4,
+    "first_name": "Ric",
+    "last_name": "Richen",
+    "email": "rrichen3@bloomberg.com",
+    "gender": "Male",
+    "ip_address": "31.25.142.135"
+  },
+  {
+    "id": 5,
+    "first_name": "Mellie",
+    "last_name": "Lapish",
+    "email": "mlapish4@howstuffworks.com",
+    "gender": "Female",
+    "ip_address": "122.73.53.195"
+  },
+  {
+    "id": 6,
+    "first_name": "Lilla",
+    "last_name": "Brewett",
+    "email": "lbrewett5@wufoo.com",
+    "gender": "Female",
+    "ip_address": "51.88.115.175"
+  },
+  {
+    "id": 7,
+    "first_name": "Joseph",
+    "last_name": "Jansson",
+    "email": "jjansson6@xinhuanet.com",
+    "gender": "Male",
+    "ip_address": "106.94.235.167"
+  },
+  {
+    "id": 8,
+    "first_name": "Sharai",
+    "last_name": "Ridolfi",
+    "email": "sridolfi7@vistaprint.com",
+    "gender": "Female",
+    "ip_address": "25.241.143.104"
+  },
+  {
+    "id": 9,
+    "first_name": "Bealle",
+    "last_name": "Janczewski",
+    "email": "bjanczewski8@alexa.com",
+    "gender": "Genderfluid",
+    "ip_address": "246.75.73.11"
+  },
+  {
+    "id": 10,
+    "first_name": "Koren",
+    "last_name": "Axworthy",
+    "email": "kaxworthy9@techcrunch.com",
+    "gender": "Female",
+    "ip_address": "41.63.210.147"
+  }
+]
