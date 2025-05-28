@@ -6,17 +6,23 @@ interface Account {
     first_name: string;
     last_name: string;
     email: string;
+    is_display: boolean;
+    is_delete?: boolean;
+    country: string;
     gender: string;
     ip_address: string;
 }
 
 const listOfAccounts = mockData.map((account) => ({ 
     id: account.id,
-    first_name: account.first_name,
-    last_name: account.last_name,
+    first_name: account.firstName,
+    last_name: account.lastName,
     email: account.email,
+    is_display: account.isDisplay,
+    is_delete: account.isDelete ?? false,
+    country: account.country,
     gender: account.gender,
-    ip_address: account.ip_address,
+    ip_address: account.ipAddress,
 }));
 
 export default function Account() {
@@ -40,13 +46,15 @@ export default function Account() {
                         <h2 className="text-xl font-semibold"> Last Name: {account.last_name}</h2>
                         <p className="text-gray-600">Email: {account.email}</p>
                         <p className="text-gray-500">Gender: {account.gender}</p>
-                        <p className="text-gray-500">IP: {account.ip_address}</p>
-                        <button
-                            onClick={() => handleDelete(account.id)}
-                            className='border-radius-full border-2 hover:bg-red-500 hover:text-white'
-                        >
-                            Delete
-                        </button>
+                        <p className="text-gray-500">IP: {account.ip_address || 'Default'}</p>
+                        {account.is_delete && (
+                            <button
+                                onClick={() => handleDelete(account.id)}
+                                className='border-radius-full border-2 hover:bg-red-500 hover:text-white'
+                            >
+                                Delete
+                            </button>
+                        )}
                     </div>
                 ))}
             </div>
